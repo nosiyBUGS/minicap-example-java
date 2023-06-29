@@ -34,3 +34,5 @@ The first set is the true size of your display, and the second set is the size o
 PORT=9002 node app.js
 ```
 6. Open http://localhost:9002 in your browser.
+## Thanks
+https://github.com/openstf/minicap
