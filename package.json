@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "run ": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.12.3",
+    "ws": "^0.7.1"
+  }
+}
