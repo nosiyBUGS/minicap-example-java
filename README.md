@@ -14,9 +14,9 @@ A quick and dirty example to show how minicap might be used as part of an applic
 ```
 adb devices
 ```
-2. Set up a forward for the server we'll soon have running inside the device. Note that due to laziness the port is currently fixed to 1717.
+2. Set up a forward for the server we'll soon have running inside the device. Note that due to laziness the port is currently fixed to 1313.
 ```
-adb forward tcp:1717 localabstract:minicap
+adb forward tcp:1313 localabstract:minicap
 ```
 3. Get information about your display. Unfortunately the easy API methods we could use for automatic detection segfault on some Samsung devices, presumably due to maker customizations. You'll need to know the display width and height in pixels. Here are some ways to do it:
 ```
